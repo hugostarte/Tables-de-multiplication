@@ -1,0 +1,59 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url('teapont.jpg');
+	background-size: cover;
+}
+#blocImage{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+#bloc{
+	text-align: center;
+	 margin-top: -300px;
+	 margin-left: 30%;
+	 margin-right: 30%;
+}
+#question{
+	font-size: 20px;
+	color: #0edc00b8;
+}
+#vrai{
+	color: #09ad09;
+}
+#faux{color: #690405;
+}
+label{
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	margin-left: 25%; 
+	margin-right: 30%; 
+	width:100px;
+	text-decoration: underline;
+}
+.entree{
+	background-color: #0000007d;
+	border-radius: 5px;
+	border: 0px;
+	width: 60px;
+	color: white;
+}
+#entree::placeholder{
+	color:#e1e9e296;
+	margin-left: 0;
+}
+.entree:hover, .entree:focus{
+	background-color: #08080863;
+	border:1px solid #81a781a6;
+}
+button{
+	background-color: #154732e0;
+	border-radius: 5px;
+	border:1px solid #678267;
+}
+button:hover, button:focus{
+	background-color: #1b734ee0;
+	border:1px solid #81a781a6;
+}
